@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- animate AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <!-- icon -->
+          <img id="logo" src="./assets/wlogo.png" alt="logo" />
+          <!-- tabs -->
+          <ul>
+            <li class="list-tabs"><a class="tabs" href="#home">Home</a></li>
+            <li class="list-tabs"><a class="tabs" href="#about">About</a></li>
+            <li class="list-tabs"><a class="tabs" href="#skill">Skills</a></li>
+            <li class="list-tabs"><a class="tabs" href="#projects">Projects</a></li>
+            <li class="list-tabs"><a class="tabs" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- HOME -->
+      <section id="home">
+        <div class="homeContent">
+          <h1
+            class="animate__animated animate__fadeInUp"
+            id="username"
+          >
+            Hello, I'm
+            <span id="lname" class="coraltext">Anandu </span>Dinachandran
+          </h1>
+          <p id="user-details">Software Developer</p>
+        </div>
+        <div class="home-img">
+          <img id="g1" class="group1" src="./assets/g1.png" alt="" />
+          <img id="b1" class="group1" src="./assets/b1.png" alt="" />
+          <img id="o1" class="group1" src="./assets/o1.png" alt="" />
+
+          <img id="y1" class="group1" src="./assets/y1.png" alt="" />
+          <img id="r1" class="group1" src="./assets/r1.png" alt="" />
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <hr style="border: none; margin-bottom: 8%;">
+        <div class="sectionHead">
+          <div class="mainHead" >About <span class="coraltext">Me</span></div>
+        </div>
+        <div class="sectionBody">
+          <div class="aboutImg">
+            <img data-aos="fade-right" src="./assets/profile.png" alt="profile" />
+          </div>
+          <div class="aboutContent">
+            <p id="aboutdescp">
+              Motivated and results-oriented Software Engineer with hands-on
+              experience in various software development projects. Adapt at
+              leveraging technical expertise to deliver robust, efficient and
+              scalable solutions.
+            </p>
+
+            <div class="information">
+              <div class="infoBox">
+                <i class="fa-solid fa-user" style="color: #ff7f50"></i>
+                <span>Anandu Dinachandran</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone" style="color: coral"></i>
+                <span>+91 7736110274</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-envelope" style="color: coral"></i>
+                <span>anandudina2003@gmail.com</span>
+              </div>
+              <br />
+              <hr width="604px" style="background-color: rgb(14, 7, 50)" />
+              <a data-aos="flip-up"  a-aos-easing="ease-in-sine" id="getintouch" class="button" href="#contacts">Get in Touch</a>
+              <a data-aos="flip-down" a-aos-easing="ease-in-sine" download class="button" id="dbutton" href="./assets/resume.pdf"
+                ><i
+                  class="fa-solid fa-arrow-down dwdArrow"
+                  style="color: coral"
+                ></i
+                >Download CV</a
+              >
+            </div>
+          </div>  
+        </div>
+      </section>
+      <!-- Skills -->
+      <section id="skill">
+        <hr style="border: none; margin-bottom: 8%;">
+        <div class="sectionHead">
+          <div class="mainHead">My <span class="coraltext">Skills</span></div>
+        </div>
+        <div class="skillContent">
+          <div class="progress">
+            <!-- HTML/CSS -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">HTML/CSS</h3>
+                <span class="barPercent">98%</span>
+                <div class="baseBar"></div>
+                <div class="baseBar htmlBar"></div>
+              </div>
+            </div>
+            <!-- VScode -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">VS Code</h3>
+                <div class="baseBar"></div>
+                <div class="baseBar vscBar"></div>
+                <span class="barPercent">90%</span>
+              </div>
+            </div>
+            <!-- Figma -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">Figma</h3>
+                <span class="barPercent">70%</span>
+                <div class="baseBar"></div>
+                <div class="baseBar figBar"></div>
+              </div>
+            </div>
+            <!-- Dart -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">Dart</h3>
+                <span class="barPercent">80%</span>
+                <div class="baseBar"></div>
+                <div class="baseBar dartBar"></div>
+              </div>
+            </div>
+            <!-- ReactJS -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">Flutter</h3>
+                <span class="barPercent">70%</span>
+                <div class="baseBar"></div>
+                <div class="baseBar flutterBar"></div>
+              </div>
+            </div>
+            <!-- Node.js -->
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              class="barCards"
+            >
+              <div class="bars">
+                <h3 class="barHead">Firebase</h3>
+                <span class="barPercent">60%</span>
+                <div class="baseBar"></div>
+                <div class="baseBar firebaseBar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+       <section id="projects">
+        <hr style="border: none; margin-bottom: 8%;">
+        <div class="sectionHead">
+          <div class="mainHead">
+            My <span class="coraltext">Projects</span>
+          </div>
+          <div class="projectBody">
+            <a class="projectlink" target="_blank" href="https://github.com/anandudina/VAAYO">
+              <div data-aos="fade-right" class="pCards">
+                <img class="projectImg" src="./assets/vaayo.jpg" alt="drop">
+                <p id="projectDiscrp"><span class="coraltext">Vaayo</span> is a hitch hiking modeled carpooling mobile app using Flutter and GMaps API. It features real-time updates, drive planning and personalized booking.</p>
+              </div>
+            </a>
+              <a class="projectlink" target="_blank" href="https://github.com/anandudina/DROp.  ">
+                <div data-aos="fade-left" class="pCards">
+              <img class="projectImg" src="./assets/drop.jpg" alt="drop">
+              <p id="projectDiscrp"><span class="coraltext">DROp. </span>is a route recommendation system for last-mile delivery, which features dynamic rerouting using ACO algorithm.</p>
+            </div>
+              </a>
+             
+          </div>
+          </div>
+        </hr>
+       </section>
+      <!-- Contact -->
+      <section id="contacts">
+        <hr style="border: none; margin-bottom: 8%;">
+        <div class="sectionHead">
+          <div class="mainHead">
+            Get In <span class="coraltext">Touch</span>
+          </div>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" class="iconSet">
+          <!-- Linked-In -->
+          <div class="icon">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/anandu-dinachandran"
+              ><i class="fa-brands fa-linkedin-in brands"></i
+            ></a>
+          </div>
+          <!-- Instagram -->
+          <div class="icon">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/anandu.dinachandran/#"
+              ><i class="fa-brands fa-instagram brands"></i
+            ></a>
+          </div>
+          <!-- GitHub -->
+          <div class="icon">
+            <a target="_blank" href="https://github.com/anandudina"
+              ><i class="fa-brands fa-github brands"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <p id="copyright">
+          &copy; Anandu Dinachandran Portfolio - June 2025, &reg; All Rights
+          Reserved
+        </p>
+        <!-- up arrow -->
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
