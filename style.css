@@ -367,4 +367,15 @@ html{
     .home-img{
         margin-left:20%
     }
+    .home-img{
+        display: none;
+    }
+    .sectionBody{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectBody{
+        display: flex;
+        flex-direction: column;
+    }
 }
